@@ -569,7 +569,7 @@ export class WSDL {
       return params._xml;
     }
     const args = {};
-    const opts = options || {}
+    const opts = options || {};
     if (opts.overrideBaseElement) {
       Object.keys(params).forEach((k: string) => {
         args[k] = params[k];
